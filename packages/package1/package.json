@@ -1,0 +1,13 @@
+{
+  "name": "package1",
+  "private": true,
+  "type": "module",
+  "main": "index.mjs",
+  "dependencies": {
+    "vue": "3"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.mjs",
+    "test": "echo \"Test running in package1\" && exit 1"
+  }
+}
